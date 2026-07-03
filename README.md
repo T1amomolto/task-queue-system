@@ -2,6 +2,16 @@
 
 一个基于 Spring Boot + Redis + MySQL 的轻量级分布式任务队列系统，适合处理异步任务、延时任务和定时任务。
 
+## 仓库信息
+
+- 仓库: T1amomolto/task-queue-system
+- 仓库 ID: 1287805666
+- 默认分支: main
+- 主要语言：Java（后端）
+- 前端：Vue 3 / JavaScript（位于 web/ 目录）
+
+> 说明：语言检测基于仓库文件结构与元数据；后端以 Java 为主，前端位于 web 目录使用 Vue 3 / JavaScript。
+
 ## 📌 项目特性
 
 ### 核心功能
@@ -96,6 +106,10 @@ GET /api/tasks/stats/summary
 - **TaskWorker** - 后台异步处理
 - **TaskMonitor** - 监控告警模块
 - **TaskController** - REST API 接口
+
+## web 管理后台 (web/)
+
+仓库包含一个基于 Vue 3 + Element Plus 的管理后台，位于 `web/` 目录。更多说明见 `web/README.md`。
 
 ## 📝 许可证
 
